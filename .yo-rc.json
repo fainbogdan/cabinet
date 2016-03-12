@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "cabinet",
+    "packageName": "ro.fabio.spring",
+    "packageFolder": "ro/fabio/spring",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "gulp",
+    "enableTranslation": false,
+    "enableSocialSignIn": true,
+    "rememberMeKey": "6b2cb350bc10dc46dbfcada11601c9a8373b299b",
+    "testFrameworks": [
+      "cucumber"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+cabinet-elasticsearch:
+  container_name: cabinet-elasticsearch
+  image: elasticsearch:1.7.3
+  # volumes:
+  #   - ~/volumes/jhipster/cabinet/elasticsearch/:/usr/share/elasticsearch/data/
+  ports:
+    - "9200:9200"
+    - "9300:9300"
+cabinet-postgresql:
+  container_name: cabinet-postgresql
+  image: postgres:9.4.5
+  # volumes:
+  #   - ~/volumes/jhipster/cabinet/postgresql/:/var/lib/postgresql/
+  environment:
+    - POSTGRES_USER=postgres
+    - POSTGRES_PASSWORD=postgres
+  ports:
+    - "5432:5432"
